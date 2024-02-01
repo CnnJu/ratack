@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="ratack.css" rel="stylesheet" type="text/css" />
+<title>Ra Tack</title>
+</head>
+
+<body>
+	<main>
+		<div class="left">
+			<div class="pages-heading">
+				<h1><a href="index.html">Ra Tack</a></h1>
+			</div>
+			<div class="navbar">
+				<label for="hamburger">&#9776;</label>
+				<input type="checkbox" id="hamburger"/>
+				<ul class="nav-item">
+					<li><a href="index.html">Paintings</a></li>
+					<li><a href="statement.html">Artist Statement</a></li>
+					<li><a href="https://drive.google.com/file/d/1Mig-IsCmUuw7IqLY229ay4_aHo3oFTZ-/view?usp=drive_link">CV</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<div class="gallery-container" id="galleryContainer">
+					<!-- Images will be dynamically added here -->
+			</div>
+			<div class="modal" id="modal">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<div class="modal-content" id="modalContent"></div>
+				<div class="modal-navigation">
+						<span class="prev" onclick="prevImage()">&#10094;</span>
+						<span class="next" onclick="nextImage()">&#10095;</span>
+				</div>
+			</div>
+		</div>
+	<script src="ratack.js"></script>
+	</main>
+	<footer>
+	
+	</footer>
+</body>
+</html>
