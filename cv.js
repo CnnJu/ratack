@@ -3,23 +3,23 @@ const educationExperienceData = [
     { date: "2009 - 2010", name: "Master's Degree in Fine Arts, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
     { date: "2010", name: "Intern at Extrapool, KNUST, Sound Art Print", place: "Nijmegen (NE)", lineBreak: true },
     { date: "2012 - 2015", name: "Member of artist collective Con Artist Gallery", place: "New York (USA)", lineBreak: false },
-    { date: "2017 - 2019", name: "Co-founder residency program and member of Queens Collective,", place: "Marrakech (MO)", lineBreak: false },
+    { date: "2017 - 2019", name: "Co-founder residency program and member of Queens Collective", place: "Marrakech (MO)", lineBreak: false },
     { date: "2014 - 2024", name: "Member of artist collective Heima", place: "Seyðisfjörður (IS)", lineBreak: true},
     { date: "Nov 2014", name: "Workshop Mural Young Adults", place: "Anzegem (BE)", lineBreak: false},
     { date: "Aug — Sep 2015", name: "Art Production Assistant Contour. Bienniale of Moving Image 2015", place: "Mechelen (BE)", lineBreak: false},
     { date: "Apr 2015", name: "Mentor workshop final Exhibition LungA Art school program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "2015 - 2016", name: "Mentor LungA Art school Program,", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Feb 2016", name: "Workshop <i>Fluidity as material</i> LungA School Program in collaboration with workshop <i>Just drumming</i> by Simon Berz", place: ")", lineBreak: false},
+    { date: "2015 - 2016", name: "Mentor LungA Art school Program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Feb 2016", name: "Workshop <i>Fluidity as material</i> LungA School Program in collaboration with workshop <i>Just drumming</i> by Simon Berz", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Sep — Oct 2016", name: "Artist in Residence, Priscilla Queen of the Medina", place: "Marrakech (MO", lineBreak: false},
     { date: "Nov 2016", name: "Workshop <i>Fluidity as material</i> LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Jan 2017", name: "Workshop Grunnskóli Seyðisfjarðar", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Mar 2017", name: "Workshop <i>Fluidity as material</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Nov 2017", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Mar 2018", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Apr 2019", name: "Sound composer Lexico Collective, <i>To be announced</i> premiered during Sismògraf festival,", place: "Olot (ES-CT)", lineBreak: false},
-    { date: "Jan 2020", name: "Sound composer Stand Up Dance, solo Meagan O'Shea, <i>Vicarious time</i>", place: "#", lineBreak: false},
+    { date: "Apr 2019", name: "Sound composer Lexico Collective, <i>To be announced</i> premiered during Sismògraf festival", place: "Olot (ES-CT)", lineBreak: false},
+    { date: "Jan 2020", name: "Sound composer Stand Up Dance, solo Meagan O'Shea, <i>Vicarious time</i>", lineBreak: false},
     { date: "Jul 2021", name: "Painting workshop LungA Festival", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Jun 2022", name: "Sound composer Stand Up Dance, <i>Anatomalia</i>", place: "#", lineBreak: false},
+    { date: "Jun 2022", name: "Sound composer Stand Up Dance, <i>Anatomalia</i>", lineBreak: false},
     { date: "Sep — Oct 2022", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Sep — Oct 2023", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
     
@@ -60,18 +60,20 @@ function populateContent(sectionId, data) {
     const section = document.getElementById(sectionId);
     const contentDiv = section.querySelector(".content");
 
-    data.forEach(entry => {
+    data.forEach((entry, index) => {
         const entryDiv = document.createElement("div");
-        entryDiv.classList.add("column");
+        entryDiv.classList.add("entry");
 
-        for (const key in entry) {
-            const entryInfo = document.createElement("p");
-            entryInfo.textContent = entry[key];
-            entryDiv.appendChild(entryInfo);
-        }
+        // Create a paragraph for the entry content
+        const entryContent = document.createElement("p");
+        entryContent.innerHTML = `<span>${entry.date}</span> <span>${entry.name}</span> <span>${entry.place}</span>`;
+
+        // Append the content to the entry div
+        entryDiv.appendChild(entryContent);
 
         contentDiv.appendChild(entryDiv);
 
+        // Add a <br> tag unless it's the last entry or 'lineBreak' is false
         if (entry.lineBreak && index !== data.length - 1) {
             const lineBreak = document.createElement("br");
             contentDiv.appendChild(lineBreak);
