@@ -62,24 +62,17 @@ function populateContent(sectionId, data) {
 
     data.reverse();
 
-    data.forEach((_entry, _index) => {
-        const entryDiv = document.createElement("div");
-        entryDiv.classList.add("entry");
-
     data.forEach((entry, index) => {
         const entryDiv = document.createElement("div");
         entryDiv.classList.add("entry");
 
-        // Create a paragraph for the entry content
         const entryContent = document.createElement("p");
         entryContent.innerHTML = `<span>${entry.date}</span> <span>${entry.name}</span> <span>${entry.place}</span>`;
 
-        // Append the content to the entry div
         entryDiv.appendChild(entryContent);
 
         contentDiv.appendChild(entryDiv);
 
-        // Add a <br> tag unless it's the last entry or 'lineBreak' is false
         if (entry.lineBreak && index !== data.length - 1) {
             const lineBreak = document.createElement("br");
             contentDiv.appendChild(lineBreak);
@@ -87,5 +80,5 @@ function populateContent(sectionId, data) {
     });
 }
 
-,populateContent("educationExperience", educationExperienceData));
-populateContent("exhibitions", exhibitionsData)}
+populateContent("educationExperience", educationExperienceData);
+populateContent("exhibitions", exhibitionsData);
