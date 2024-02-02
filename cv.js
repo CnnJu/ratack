@@ -60,6 +60,12 @@ function populateContent(sectionId, data) {
     const section = document.getElementById(sectionId);
     const contentDiv = section.querySelector(".content");
 
+    data.reverse();
+
+    data.forEach((_entry, _index) => {
+        const entryDiv = document.createElement("div");
+        entryDiv.classList.add("entry");
+
     data.forEach((entry, index) => {
         const entryDiv = document.createElement("div");
         entryDiv.classList.add("entry");
@@ -81,5 +87,5 @@ function populateContent(sectionId, data) {
     });
 }
 
-populateContent("educationExperience", educationExperienceData);
-populateContent("exhibitions", exhibitionsData);
+,populateContent("educationExperience", educationExperienceData));
+populateContent("exhibitions", exhibitionsData)}
