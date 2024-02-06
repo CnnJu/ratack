@@ -48,9 +48,11 @@ const images = [
 let currentImageIndex = 0;
 
 images.forEach((image, index) => {
-        const galleryItem = document.createElement('div');
-        galleryItem.className = 'gallery-item';
-        galleryItem.style.backgroundImage = `url(${image.path})`;
+    const galleryItem = document.createElement('div');
+    galleryItem.className = 'gallery-item';
+    galleryItem.style.backgroundImage = `url(${image.path})`;
+
+    // Add data-year attribute to the first item of each year
     if (index === 0 || (images[index - 1] && images[index - 1].year !== image.year)) {
         galleryItem.setAttribute('data-year', image.year);
     }
