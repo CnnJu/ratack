@@ -86,7 +86,13 @@ ul {
 
 .right {
 	flex-grow: 1;
-	padding: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.painting {
+	margin-bottom: 10px;
 }
 .gallery-container {
     display: grid;
