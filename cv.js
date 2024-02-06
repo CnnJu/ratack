@@ -1,31 +1,6 @@
-const educationExperienceData = [
-    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
-    { date: "2009 - 2010", name: "Master's Degree in Fine Arts, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
-    { date: "2010", name: "Intern at Extrapool, KNUST, Sound Art Print", place: "Nijmegen (NE)", lineBreak: true },
-    { date: "2012 - 2015", name: "Member of artist collective Con Artist Gallery", place: "New York (USA)", lineBreak: false },
-    { date: "2017 - 2019", name: "Co-founder residency program and member of Queens Collective", place: "Marrakech (MO)", lineBreak: false },
-    { date: "2014 - 2024", name: "Member of artist collective Heima", place: "Seyðisfjörður (IS)", lineBreak: true},
-    { date: "Nov 2014", name: "Workshop Mural Young Adults", place: "Anzegem (BE)", lineBreak: false},
-    { date: "Aug — Sep 2015", name: "Art Production Assistant Contour. Bienniale of Moving Image 2015", place: "Mechelen (BE)", lineBreak: false},
-    { date: "Apr 2015", name: "Mentor workshop final Exhibition LungA Art school program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "2015 - 2016", name: "Mentor LungA Art school Program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Feb 2016", name: "Workshop <i>Fluidity as material</i> LungA School Program in collaboration with workshop <i>Just drumming</i> by Simon Berz", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Sep — Oct 2016", name: "Artist in Residence, Priscilla Queen of the Medina", place: "Marrakech (MO", lineBreak: false},
-    { date: "Nov 2016", name: "Workshop <i>Fluidity as material</i> LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Jan 2017", name: "Workshop Grunnskóli Seyðisfjarðar", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Mar 2017", name: "Workshop <i>Fluidity as material</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Nov 2017", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Mar 2018", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Apr 2019", name: "Sound composer Lexico Collective, <i>To be announced</i> premiered during Sismògraf festival", place: "Olot (ES-CT)", lineBreak: false},
-    { date: "Jan 2020", name: "Sound composer Stand Up Dance, solo Meagan O'Shea, <i>Vicarious time</i>", lineBreak: false},
-    { date: "Jul 2021", name: "Painting workshop LungA Festival", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Jun 2022", name: "Sound composer Stand Up Dance, <i>Anatomalia</i>", lineBreak: false},
-    { date: "Sep — Oct 2022", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Sep — Oct 2023", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
-    
-    // Add more entries as needed
+const upcomingEventsData = [
+    { date: "#", name: "#", place: "Flaedi Gallery, Reykjavik (IS)", lineBreak: false },
 ];
-
 const exhibitionsData = [
     { date: "2017", name: "Screening, <i>The silence of the strings</i>(2017) and <i>All blossoms fell in potential lonely gardens</i> (2016), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
     { date: "2017", name: "The Candles, Old Net Factory, curated by Lotte Rose Kjær Skau and Daniel Grossman", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
@@ -55,6 +30,43 @@ const exhibitionsData = [
 
     // Add more entries as needed
 ];
+const ProjectsData = [
+    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    
+    // Add more entries as needed
+];
+const soundData = [
+    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    
+    // Add more entries as needed
+];
+const educationExperienceData = [
+    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    { date: "2009 - 2010", name: "Master's Degree in Fine Arts, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    { date: "2010", name: "Intern at Extrapool, KNUST, Sound Art Print", place: "Nijmegen (NE)", lineBreak: true },
+    { date: "2012 - 2015", name: "Member of artist collective Con Artist Gallery", place: "New York (USA)", lineBreak: false },
+    { date: "2017 - 2019", name: "Co-founder residency program and member of Queens Collective", place: "Marrakech (MO)", lineBreak: false },
+    { date: "2014 - 2024", name: "Member of artist collective Heima", place: "Seyðisfjörður (IS)", lineBreak: true},
+    { date: "Nov 2014", name: "Workshop Mural Young Adults", place: "Anzegem (BE)", lineBreak: false},
+    { date: "Aug — Sep 2015", name: "Art Production Assistant Contour. Bienniale of Moving Image 2015", place: "Mechelen (BE)", lineBreak: false},
+    { date: "Apr 2015", name: "Mentor workshop final Exhibition LungA Art school program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "2015 - 2016", name: "Mentor LungA Art school Program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Feb 2016", name: "Workshop <i>Fluidity as material</i> LungA School Program in collaboration with workshop <i>Just drumming</i> by Simon Berz", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Sep — Oct 2016", name: "Artist in Residence, Priscilla Queen of the Medina", place: "Marrakech (MO", lineBreak: false},
+    { date: "Nov 2016", name: "Workshop <i>Fluidity as material</i> LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Jan 2017", name: "Workshop Grunnskóli Seyðisfjarðar", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Mar 2017", name: "Workshop <i>Fluidity as material</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Nov 2017", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Mar 2018", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Apr 2019", name: "Sound composer Lexico Collective, <i>To be announced</i> premiered during Sismògraf festival", place: "Olot (ES-CT)", lineBreak: false},
+    { date: "Jan 2020", name: "Sound composer Stand Up Dance, solo Meagan O'Shea, <i>Vicarious time</i>", lineBreak: false},
+    { date: "Jul 2021", name: "Painting workshop LungA Festival", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Jun 2022", name: "Sound composer Stand Up Dance, <i>Anatomalia</i>", lineBreak: false},
+    { date: "Sep — Oct 2022", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "Sep — Oct 2023", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
+    
+    // Add more entries as needed
+];
 
 function populateContent(sectionId, data) {
     const section = document.getElementById(sectionId);
@@ -80,5 +92,8 @@ function populateContent(sectionId, data) {
     });
 }
 
-populateContent("educationExperience", educationExperienceData);
+populateContent("upcomingEvents", upcomingEventsData);
 populateContent("exhibitions", exhibitionsData);
+populateContent("Projects", ProjectsData);
+populateContent("sound", soundData);
+populateContent("educationExperience", educationExperienceData);
