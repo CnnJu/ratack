@@ -4,6 +4,7 @@ const modalContent = document.getElementById('modalContent');
 
 // Replace these paths with your actual image paths
 const images = [
+    // Add more images as needed
     { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'I Found You, 2024' },
     { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'I Found You, 2024' },
     { path: 'images/2023/youareinmyworldnow.jpeg', year: 2023, caption:'You Are in My World Now, 2023' },
@@ -37,13 +38,6 @@ const images = [
 	{ path: 'images/2019/fields10.jpg', year: 2019, caption:'Fields 10, 2019' },
 	{ path: 'images/2019/drinkingteaandlongingforsunset.jpg', year: 2019, caption:'Drinking Tea and Longing for Sunset, 2019' },
 	{ path: 'images/2019/blackflowers.jpg', year: 2019, caption:'Black Flowers, 2019' },
-	{ path: 'images/2018/templesoffire5-wheepingwill.jpg', year: 2018, caption:'Temples of Fire 5 — Wheeping Will, 2018' },
-	{ path: 'images/2018/templesoffire3-aghmatwomen.jpg', year: 2018, caption:'Temples of Fire 3 — Aghmat Women, 2018' },
-	{ path: 'images/2018/birthseries_2.jpg', year: 2018, caption:'Birth Series 2, 2018' },
-	{ path: 'images/2018/birthseries_1.jpg', year: 2018, caption:'Birth Series 1, 2018' },
-	{ path: 'images/2018/Asabovesobelow6_series.jpg', year: 2018, caption:'As Above as Below Series 6, 2018' },
-	{ path: 'images/2018/Asabovesobelow3_series.jpg', year: 2018, caption:'As Above as Below Series 3, 2018' },
-    // Add more images as needed
 ];
 
 let currentImageIndex = 0;
