@@ -31,18 +31,6 @@ const exhibitionsData = [
 ];
 const ProjectsData = [
     { date: "2018", name: "Screening <i>Madness of Fellini</i> (2016) and <i>Why is my mother walking so much in the room</i> (2017), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
-    
-    // Add more entries as needed
-];
-const soundData = [
-    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
-    
-    // Add more entries as needed
-];
-const educationExperienceData = [
-    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
-    { date: "2009 - 2010", name: "Master's Degree in Fine Arts, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
-    { date: "2010", name: "Intern at Extrapool, KNUST, Sound Art Print", place: "Nijmegen (NE)", lineBreak: true },
     { date: "2012 - 2015", name: "Member of artist collective Con Artist Gallery", place: "New York (USA)", lineBreak: false },
     { date: "2017 - 2019", name: "Co-founder residency program and member of Queens Collective", place: "Marrakech (MO)", lineBreak: false },
     { date: "2014 - 2024", name: "Member of artist collective Heima", place: "Seyðisfjörður (IS)", lineBreak: true},
@@ -63,6 +51,18 @@ const educationExperienceData = [
     { date: "Jun 2022", name: "Sound composer Stand Up Dance, <i>Anatomalia</i>", lineBreak: false},
     { date: "Sep — Oct 2022", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Sep — Oct 2023", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
+    // Add more entries as needed
+];
+const soundData = [
+    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    
+    // Add more entries as needed
+];
+const educationExperienceData = [
+    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    { date: "2009 - 2010", name: "Master's Degree in Fine Arts, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    { date: "2010", name: "Intern at Extrapool, KNUST, Sound Art Print", place: "Nijmegen (NE)", lineBreak: true },
+   
     
     // Add more entries as needed
 ];
