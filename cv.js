@@ -8,7 +8,6 @@ const exhibitionsData = [
     { date: "2017", name: "FILE 2017 - Electronic Language International Festival", place: "Fiesp Cultural Center, Sao Paulo, (BR)", lineBreak: false },
     { date: "2017", name: "Queens Collective open day, 'Do it' exhibition, Queens Collective", place: "Marrakech (MO)", lineBreak: true },
     { date: "2018", name: "Queens Collective Exhibition 0.2, group exhibition, Queens Collective", place: "Marrakech (MO)", lineBreak: false },
-    { date: "2018", name: "Screening <i>Madness of Fellini</i> (2016) and <i>Why is my mother walking so much in the room</i> (2017), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
     { date: "2018", name: "Queens Collective Exhibition 0.3, group exhibition, Queens Collective", place: "Marrakech (MO)", lineBreak: false },
     { date: "2018", name: "Con Artist ALL STARS, group exhibition", place: "Con Artist Collective, Lower East Side, New York (USA)", lineBreak: false },
     { date: "2018", name: "LungA Exhibition with Jökull Snær Þórðarson, Kolbrun Ínga, Kerstin Möller, Anthonia Gonsales", place: "Seyðisfjörður (IS)", lineBreak: true },
@@ -31,7 +30,7 @@ const exhibitionsData = [
     // Add more entries as needed
 ];
 const ProjectsData = [
-    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    { date: "2018", name: "Screening <i>Madness of Fellini</i> (2016) and <i>Why is my mother walking so much in the room</i> (2017), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
     
     // Add more entries as needed
 ];
