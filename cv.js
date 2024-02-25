@@ -1,5 +1,5 @@
 const upcomingEventsData = [
-    { date: "29.08.24", name: "<a href="hafnarborg.is"><i>Unknown Benevolence</i>, Group Exhibition</a>", place: "Hafnarborg", lineBreak: false },
+    { date: "29.08.24", name: "<i>Unknown Benevolence</i>, Group Exhibition", place: "Hafnarborg", lineBreak: false },
 ];
 const exhibitionsData = [
     { date: "2017", name: "Screening, <i>The silence of the strings</i>(2017) and <i>All blossoms fell in potential lonely gardens</i> (2016), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
