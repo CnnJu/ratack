@@ -5,6 +5,7 @@ const modalContent = document.getElementById('modalContent');
 // Replace these paths with your actual image paths
 const images = [
     { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'I Found You, 2024' },
+    { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'I Found You, 2024' },
     { path: 'images/2023/youareinmyworldnow.jpeg', year: 2023, caption:'You Are in My World Now, 2023' },
 	{ path: 'images/2023/whenwelookedateachotheronmossygrounds.jpeg', year: 2023, caption:'When We Looked at Each Other on Mossy Grounds, 2023' },
 	{ path: 'images/2023/seeingyou.jpeg', year: 2023, caption:'Seeing You, 2023' },
