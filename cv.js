@@ -30,7 +30,7 @@ const exhibitionsData = [
     // Add more entries as needed
 ];
 const ProjectsData = [
-    { date: "2018", name: "Screening <i>Madness of Fellini</i> (2016) and <i>Why is my mother walking so much in the room</i> (2017), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
+   
     { date: "2012 - 2015", name: "Member of artist collective Con Artist Gallery", place: "New York (USA)", lineBreak: false },
     { date: "2017 - 2019", name: "Co-founder residency program and member of Queens Collective", place: "Marrakech (MO)", lineBreak: false },
     { date: "2014 - 2024", name: "Member of artist collective Heima", place: "Seyðisfjörður (IS)", lineBreak: true},
@@ -44,17 +44,17 @@ const ProjectsData = [
     { date: "Jan 2017", name: "Workshop Grunnskóli Seyðisfjarðar", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Mar 2017", name: "Workshop <i>Fluidity as material</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Nov 2017", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
+    { date: "2018", name: "Screening <i>Madness of Fellini</i> (2016) and <i>Why is my mother walking so much in the room</i> (2017), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
     { date: "Mar 2018", name: "Workshop <i>Painting</i> with Jeppe Kondrup Adelborg, LungA School Program", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Apr 2019", name: "Sound composer Lexico Collective, <i>To be announced</i> premiered during Sismògraf festival", place: "Olot (ES-CT)", lineBreak: false},
-    { date: "Jan 2020", name: "Sound composer Stand Up Dance, solo Meagan O'Shea, <i>Vicarious time</i>", lineBreak: false},
     { date: "Jul 2021", name: "Painting workshop LungA Festival", place: "Seyðisfjörður (IS)", lineBreak: false},
-    { date: "Jun 2022", name: "Sound composer Stand Up Dance, <i>Anatomalia</i>", lineBreak: false},
     { date: "Sep — Oct 2022", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
     { date: "Sep — Oct 2023", name: "Hosting Residency for Queer artists and activists, Heima", place: "Seyðisfjörður (IS)", lineBreak: false},
     // Add more entries as needed
 ];
 const soundData = [
-    { date: "2006 - 2009", name: "Bachelor Degree in Graphic Design, The Royal Academy of Fine Arts", place: "Ghent (BE)", lineBreak: false },
+    { date: "Apr 2019", name: "Sound composer Lexico Collective, <i>To be announced</i> premiered during Sismògraf festival", place: "Olot (ES-CT)", lineBreak: false},
+    { date: "Jan 2020", name: "Sound composer Stand Up Dance, solo Meagan O'Shea, <i>Vicarious time</i>", lineBreak: false},
+    { date: "Jun 2022", name: "Sound composer Stand Up Dance, <i>Anatomalia</i>", lineBreak: false},
     
     // Add more entries as needed
 ];
