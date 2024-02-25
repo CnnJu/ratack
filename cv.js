@@ -1,5 +1,5 @@
 const upcomingEventsData = [
-    { date: "#", name: "#", place: "Flaedi Gallery, Reykjavik (IS)", lineBreak: false },
+    { date: "29.08.24", name: "<a href="hafnarborg.is"><i>Unknown Benevolence</i>, Group Exhibition</a>", place: "Hafnarborg", lineBreak: false },
 ];
 const exhibitionsData = [
     { date: "2017", name: "Screening, <i>The silence of the strings</i>(2017) and <i>All blossoms fell in potential lonely gardens</i> (2016), Flat Earth Film Festival", place: "Herðubreið, Seyðisfjörður (IS)", lineBreak: false },
@@ -26,8 +26,8 @@ const exhibitionsData = [
     { date: "2023", name: "Solo Exhibition", place: "Galerijke Marijke, Antwerp (BE)", lineBreak: false },
     { date: "2023", name: "Solo exhibition <i>Small works</i>", place: "Skaftfell, Seyðisfjörður (IS)", lineBreak: false },
     { date: "2023", name: "Group Exhibition LungA Festival", place: "Seyðisfjörður (IS)", lineBreak: false },
-    { date: "2023", name: "Duo exhibition <i>And as always, the end is everything</i> with Florence Peake", place: "IMT gallery, London (UK)", lineBreak: false },
-
+    { date: "2023", name: "Duo exhibition <i>And as always, the end is everything</i> with Florence Peake", place: "IMT gallery, London (UK)", lineBreak: true },
+    { date: "2024", name: "Solo exhibition <i>Tell me I will be fine after all</i>", place: "Associate Gallery, Reykjavik (IS)", lineBreak: false },
     // Add more entries as needed
 ];
 const ProjectsData = [
