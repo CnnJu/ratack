@@ -100,7 +100,7 @@ ul {
 	flex-wrap: wrap;
 }
 .painting {
-	margin-bottom: 10px;
+	width: 600px;
 }
 .gallery-container {
     display: grid;
