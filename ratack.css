@@ -101,7 +101,7 @@ ul {
 }
 .painting {
 	width: 600px;
-	padding: 0px;
+	padding: 10px;
 }
 .gallery-container {
     display: grid;
