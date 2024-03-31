@@ -7,7 +7,7 @@ const images = [
     // Add more images as needed
     { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'<i>I Found You, 2024</i>' },
     { path: 'images/2024/departingfromeachothertoomanytimes.jpeg', year: 2024, caption:'<i>Departing from Each Other too Many Times, 2024</i>' },
-    { path: 'images/2024/wherethemeadowusedtobe.jpeg', year: 2024, caption:'<i>Where the Meadow Used to Be, 2024</i>' },
+    { path: 'images/2024/Wherethemeadowusedtobe.jpeg', year: 2024, caption:'<i>Where the Meadow Used to Be, 2024</i>' },
     { path: 'images/2023/youareinmyworldnow.jpeg', year: 2023, caption:'<i>You Are in My World Now, 2023</i>' },
 	{ path: 'images/2023/whenwelookedateachotheronmossygrounds.jpeg', year: 2023, caption:'<i>When We Looked at Each Other on Mossy Grounds</i>, 2023' },
 	{ path: 'images/2023/seeingyou.jpeg', year: 2023, caption:'<i>Seeing You</i>, 2023' },
