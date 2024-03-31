@@ -109,12 +109,10 @@ document.addEventListener('keydown', function (event) {
 images.forEach((image, index) => {
     const galleryItem = document.createElement('div');
     galleryItem.className = 'gallery-item';
+    galleryItem.style.backgroundImage = `url(${image.path})`;
 
-    const img = document.createElement('img');
-    img.src = image.path;
-    img.alt = `Painting for ${image.year}`;
-
-    galleryItem.appendChild(img);
+    galleryItem.style.backgroundSize = 'cover';
+    galleryItem.style.backgroundPosition = 'center';
 
     // Add data-year attribute to the first item of each year
     if (index === 0 || (images[index - 1] && images[index - 1].year !== image.year)) {
