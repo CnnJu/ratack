@@ -171,6 +171,17 @@ ul {
     width: auto;
     margin: auto;
 }
+@media only screen and (max-width: 768px) {
+	.modal-content img {
+		max-width: 80%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.modal-content img {
+		max-width: 70%;
+	}
+}
 .close {
     color: #000;
     font-size: 2em;
