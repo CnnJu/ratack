@@ -47,8 +47,6 @@ images.forEach((image, index) => {
     const galleryItem = document.createElement('div');
     galleryItem.className = 'gallery-item';
     galleryItem.style.backgroundImage = `url(${image.path})`;
-    galleryItem.style.backgroundSize = 'cover';
-    galleryItem.style.backgroundPosition = 'center';
 
     // Add data-year attribute to the first item of each year
     if (index === 0 || (images[index - 1] && images[index - 1].year !== image.year)) {
@@ -72,15 +70,12 @@ function openModal(imagePath, year, index) {
         <div class="caption">${caption}</div>`;
     modal.style.display = 'block';
 }
-
 function getImageCaption(caption) {
     return `${caption}`;
 }
-
 function closeModal() {
     modal.style.display = 'none';
 }
-
 window.onclick = function (event) {
     if (event.target === modal) {
         closeModal();
@@ -104,7 +99,6 @@ function updateModalContent() {
         <img src="${image.path}" alt="Painting for ${image.year}">
         <div class="caption">${caption}</div>`;
 }
-
 document.addEventListener('keydown', function (event) {
     if (event.key === 'ArrowLeft') {
         prevImage();

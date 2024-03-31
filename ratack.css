@@ -111,30 +111,26 @@ ul {
 }
 
 .gallery-item {
-    position: relative;
-    width: 25%; /* Adjust the percentage based on the number of columns you want */
-    height: auto; /* Allow the height to adjust automatically based on the image's aspect ratio */
+	position: relative;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+	background-position: center;
     cursor: pointer;
-    overflow: hidden; /* Hide overflow to ensure images don't exceed the square dimensions */
-    float: left; /* Float the items left to create a grid layout */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
-
 .gallery-item::before {
-    content: '';
+    content: attr(data-year);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8; /* Adjust the opacity as needed */
-    transition: opacity 0.3s ease; /* Add a smooth transition effect */
-}
-
-.gallery-item:hover::before {
-    opacity: 0; /* Hide the overlay on hover */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
