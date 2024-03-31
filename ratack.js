@@ -106,3 +106,24 @@ document.addEventListener('keydown', function (event) {
         nextImage();
     }
 });
+images.forEach((image, index) => {
+    const galleryItem = document.createElement('div');
+    galleryItem.className = 'gallery-item';
+
+    const img = document.createElement('img');
+    img.src = image.path;
+    img.alt = `Painting for ${image.year}`;
+
+    galleryItem.appendChild(img);
+
+    // Add data-year attribute to the first item of each year
+    if (index === 0 || (images[index - 1] && images[index - 1].year !== image.year)) {
+        galleryItem.setAttribute('data-year', image.year);
+    }
+
+    galleryItem.addEventListener('click', () => {
+        openModal(image.path, image.year, index);
+    });
+
+    galleryContainer.appendChild(galleryItem);
+});
