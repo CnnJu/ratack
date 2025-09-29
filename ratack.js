@@ -6,6 +6,7 @@ const modalContent = document.getElementById('modalContent');
 const images = [
     // Add more images as needed
     { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'<i>I Found You, 2024</i>' },
+    { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'<i>I Found You, 2024</i>' },
     { path: 'images/2024/departingfromeachothertoomanytimes.jpeg', year: 2024, caption:'<i>Departing from Each Other too Many Times, 2024</i>' },
     { path: 'images/2024/Wherethemeadowusedtobe.jpeg', year: 2024, caption:'<i>Where the Meadow Used to Be, 2024</i>' },
     { path: 'images/2023/youareinmyworldnow.jpeg', year: 2023, caption:'<i>You Are in My World Now, 2023</i>' },
