@@ -5,7 +5,17 @@ const modalContent = document.getElementById('modalContent');
 // Replace these paths with your actual image paths
 const images = [
     // Add more images as needed
-    { path: 'images/2025/', year: 2024, caption:'<i>I Found You, 2024</i>' },
+    { path: 'images/2025/celebratingyoucomingintoourlives.jpg', year: 2025, caption:'<i>Celebrating you coming into our lives, 2025</i>' },
+    { path: 'images/2025/Everytimeyoukissme.jpg', year: 2025, caption:'<i>Every time you kiss me, 2025</i>' }, 
+    { path: 'images/2025/grievingonyourshoulders.jpg', year: 2025, caption:'<i>Grieving on your shoulders, 2025</i>' }, 
+    { path: 'images/2025/hidingmyfacebehindthemoutains.jpg', year: 2025, caption:'<i>Hiding my face behind the mountains, 2025</i>' }, 
+    { path: 'images/2025/ifeelyoueverynight.jpg', year: 2025, caption:'<i>I feel you every night, 2025</i>' }, 
+    { path: 'images/2025/ifoldmyarmsaroundyou.jpg', year: 2025, caption:'<i>I fold my arms around you, 2025</i>' }, 
+    { path: 'images/2025/InallofthistheytellmeImfine.jpg', year: 2025, caption:'<i>In all of this, they tell me I’m fine, 2025</i>' }, 
+    { path: 'images/2025/inbetweenyourlight.jpg', year: 2025, caption:'<i>In between your light, 2025</i>' }, 
+    { path: 'images/2025/kissingyoubyanancientflower.jpg', year: 2025, caption:'<i>Kissing you by an ancient flower, 2025</i>' },
+    { path: 'images/2025/talkingaboutyou.jpg', year: 2025, caption:'<i>Talking about you, 2025</i>' },
+    { path: 'images/2025/whenwesawyouforthefirsttime.jpg', year: 2025, caption:'<i>When we saw you for the first time, 2025</i>' },
     { path: 'images/2024/ifoundyou.jpeg', year: 2024, caption:'<i>I Found You, 2024</i>' },
     { path: 'images/2024/departingfromeachothertoomanytimes.jpeg', year: 2024, caption:'<i>Departing from Each Other too Many Times, 2024</i>' },
     { path: 'images/2024/Wherethemeadowusedtobe.jpeg', year: 2024, caption:'<i>Where the Meadow Used to Be, 2024</i>' },
