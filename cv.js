@@ -25,13 +25,17 @@ const exhibitionsData = [
     { date: "2023", name: "Solo Exhibition", place: "Galerijke Marijke, Antwerp (BE)", lineBreak: false },
     { date: "2023", name: "Solo exhibition <i>Small works</i>", place: "Skaftfell, Seyðisfjörður (IS)", lineBreak: false },
     { date: "2023", name: "Group Exhibition LungA Festival", place: "Seyðisfjörður (IS)", lineBreak: false },
-    { date: "2023", name: "Duo exhibition <i>And as always, the end is everything</i> with Florence Peake", place: "IMT gallery, London (UK)", lineBreak: true },
+    { date: "2023", name: "Duo exhibition <i>And as always, the end is everything</i> with Florence Peake", place: "IMT gallery, London (UK)", lineBreak: false },
     { date: "2024", name: "Solo exhibition <i>Tell me I will be fine after all</i>", place: "Associate Gallery, Reykjavik (IS)", lineBreak: false },
     { date: "2024", name: "Unknown Benevolence <i>Group Show</i>", place: "Hafnarborg museum, Hafnarfjörður (IS)", lineBreak: false },
     { date: "2025", name: "<i>Everything with tenderness</i>, duo exhibition with Julie Laenkholm,", place: "Skaftfell Art Centre, Seyðisfjörður (IS)", lineBreak: false },
     { date: "2025", name: "<i>To Tender</i>, group exhibition,", place: "Gerðarsafn museum, Kopavogur (IS)", lineBreak: false },
     { date: "2025", name: "<i>Waiting for you to come,</i> solo exhibition", place: "Thórsmörk cultural centre, Neskaupstadir (IS)", lineBreak: false },
-    { date: "29.08.24", name: "<i>Unknown Benevolence</i>, Group Exhibition", place: "Hafnarborg", lineBreak: false }
+    { date: "29.08.24", name: "<i>Unknown Benevolence</i>, Group Exhibition", place: "Hafnarborg", lineBreak: false },
+    { date: "2025", name: "<i>Unknown Benevolence</i>, Group Exhibition", place: "Sláturhusíd, Egilstaddir", lineBreak: false },
+
+
+
     // Add more entries as needed
 ];
 const ProjectsData = [
